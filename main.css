@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+}
+
+.container-1 {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.699)),
+    url(pexels-leon-ardho-1552242-min.jpg);
+  height: 90vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  margin: 2%;
+  clip-path: polygon(0 1%, 100% 11%, 100% 100%, 0 90%);
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.name {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  width: 100%;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: white;
+}
+.semi-name {
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 3px 3px 5px white;
+}
+.quoat {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  top: 65%;
+  left: 50%;
+  width: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.join {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  width: 120px;
+  padding: 10px;
+}
+.join,
+a {
+  text-decoration: none;
+  color: black;
+}
+.why-us {
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  text-align: center;
+  padding: 5% 0 3% 0;
+}
+.att {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+ul {
+  display: block;
+  margin-left: 20vw;
+  padding-top: 10vh;
+  padding-bottom: 5%;
+}
+ul,
+li {
+  display: inline-flex;
+  padding-right: 12vw;
+}
+.img-li {
+  width: 60%;
+  padding-bottom: 20%;
+  border: 5px solid black;
+  border-radius: 40%;
+  padding: 15%;
+}
+.ul,
+li,
+details {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  text-align: center;
+}
+.container-3 {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.699)),
+    url(pexels-leon-ardho-1552252.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: white;
+  margin: 2%;
+}
+.form {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+input {
+  padding: 5%;
+  margin: 10% 0% 0% 0%;
+  display: block;
+  width: 12vw;
+}
+button {
+  cursor: pointer;
+  padding: 3%;
+}
+.calc-result {
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+}
+.diet-mass-lose,
+.diet-mass-gainer {
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+  top: 85vh;
+  text-align: center;
+}
+.tabl-style {
+  border-collapse: collapse;
+  min-width: 350px;
+
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.795);
+  cursor: pointer;
+  margin: 70px auto;
+  border: 2px solid gray;
+}
+.empty {
+  padding: 0px 0px;
+}
+.day {
+  background-color: rgba(128, 128, 128, 0.452);
+  text-align: left;
+}
+th,
+td {
+  padding: 20px 30px;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.container-5 {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.5)),
+    url(container5img.jpeg);
+  height: 110vh;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  margin: 2%;
+}
+.plans-list {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 2%;
+}
+.Plan {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.603), rgba(0, 0, 0, 0.699)),
+    url(plan-bg-min.jpg);
+  text-align: center;
+  padding: 1.5% 5% 5% 5%;
+  display: inline-flex;
+  margin: 2% 6%;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 7%);
+}
+.Plan-2 {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.589)),
+    url(plan2-bg-min.jpg);
+  text-align: center;
+  padding: 1.5% 5% 5% 5%;
+  display: inline-flex;
+  margin: 10% 6%;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 7%);
+}
+.Plan-3 {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.589)),
+    url(plan3-bg-min.jpg);
+  text-align: center;
+  padding: 1.5% 5% 5% 5%;
+  display: inline-flex;
+  margin: 10% 6%;
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 7%);
+}
+.Plan:hover {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.452),
+      rgba(122, 122, 122, 0.356)
+    ),
+    url(plan-bg-min.jpg);
+}
+.Plan-2:hover {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.452),
+      rgba(122, 122, 122, 0.356)
+    ),
+    url(plan2-bg-min.jpg);
+}
+.Plan-3:hover {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.452),
+      rgba(122, 122, 122, 0.356)
+    ),
+    url(plan3-bg-min.jpg);
+}
+.plan-name {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 0 0 10px 10px;
+}
+.content {
+  display: inline-block;
+}
+.price-row,
+p {
+  padding-top: 40%;
+}
+.price-row,
+h3 {
+  padding-bottom: 40%;
+}
+
+.join-now {
+  background-color: grey;
+  width: 5vw;
+  margin-left: 25%;
+  padding: 3%;
+  border-radius: 100px;
+  color: white;
+  border-radius: 91% 10% 94% 6% / 14% 22% 12% 29%;
+}
+.join-now:hover {
+  background-color: white;
+}
+.price-row,
+p {
+  padding-bottom: 15%;
+}
+.container-6 {
+  height: 95vh;
+  color: white;
+  position: relative;
+  margin: 2%;
+}
+.container-6 .mini-name {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin: 8% 2%;
+}
+.Plan-vip {
+  margin-top: 5%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.671), rgba(0, 0, 0, 0.589)),
+    url(vip.gif);
+  text-align: center;
+  padding: 1.5% 8% 15% 8%;
+  display: inline-flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 8%, 100% 100%, 0 92%, 0 0);
+  position: absolute;
+}
+.Plan-vip:hover {
+  background-image: radial-gradient(
+      rgba(0, 0, 0, 0.192),
+      rgba(187, 187, 187, 0.452)
+    ),
+    url(vip.gif);
+}
+.Plan-vip .plan-name {
+  color: gold;
+}
+.container-7 {
+  height: 35vh;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  color: white;
+  margin-top: 10%;
+}
+.container-7 img {
+}
